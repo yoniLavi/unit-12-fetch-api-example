@@ -1,4 +1,4 @@
-const API_KEY = 'rc_live_1693f45350cc47f6a67555099254656a';
+const API_KEY = '...';  // Don't hardcode actually secret keys, but it's ok for a basic free one
 const API_URL = 'https://api.restcountries.com/countries/v5/names.common/';
 const OPTIONS = {
   headers: { Authorization: 'Bearer ' + API_KEY }
